@@ -1,0 +1,655 @@
+[
+ {
+  "file": "/assets/6204b2918aeadba3.js",
+  "bytes": 2487951,
+  "needles": [
+   "ageVerification",
+   "age-verification",
+   "ageAssurance"
+  ]
+ },
+ {
+  "file": "/assets/7fedd2f576334317.js",
+  "bytes": 1561649,
+  "needles": [
+   "over 18"
+  ]
+ },
+ {
+  "file": "/assets/7a57fdb5ded17dc5.js",
+  "bytes": 1523440,
+  "needles": [
+   "over 18"
+  ]
+ },
+ {
+  "file": "/assets/8b9a4b4a55eaa34c.js",
+  "bytes": 1433778,
+  "needles": [
+   "age-restricted",
+   "over 18",
+   "restricted server"
+  ]
+ },
+ {
+  "file": "/assets/9e1d5dc568b14cd2.js",
+  "bytes": 1431590,
+  "needles": [
+   "age-restricted",
+   "over 18",
+   "restricted server"
+  ]
+ },
+ {
+  "file": "/assets/5f817770f0e8049a.js",
+  "bytes": 1073086,
+  "needles": [
+   "AGE_CHECK"
+  ]
+ },
+ {
+  "file": "/assets/30cd3caf9e19d165.js",
+  "bytes": 664989,
+  "needles": [
+   "18 years",
+   "be at least 18",
+   "at least 18 years",
+   "dateOfBirth",
+   "birthdate"
+  ]
+ },
+ {
+  "file": "/assets/72856f1581cfc160.js",
+  "bytes": 586445,
+  "needles": [
+   "AGE_VERIFICATION",
+   "AGE_RESTRICTED"
+  ]
+ },
+ {
+  "file": "/assets/b3b96023d012ded8.js",
+  "bytes": 578583,
+  "needles": [
+   "AGE_RESTRICTED",
+   "server_age"
+  ]
+ },
+ {
+  "file": "/assets/dab518c3d9c5a2e0.js",
+  "bytes": 452341,
+  "needles": [
+   "age_verification",
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/c6e61aa598b77723.js",
+  "bytes": 260114,
+  "needles": [
+   "age_verification",
+   "AGE_VERIFICATION",
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/275e5a91aa52f562.js",
+  "bytes": 160243,
+  "needles": [
+   "age_verification",
+   "ageVerification",
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/0e5d9a6b226e66fe.js",
+  "bytes": 149218,
+  "needles": [
+   "date_of_birth",
+   "AGE_GATE",
+   "age_gate"
+  ]
+ },
+ {
+  "file": "/assets/3e2dfbd356cb6456.js",
+  "bytes": 141152,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/07a62aaa0f141b03.js",
+  "bytes": 97708,
+  "needles": [
+   "ageVerification"
+  ]
+ },
+ {
+  "file": "/assets/ce97f42e830b2b0e.js",
+  "bytes": 72397,
+  "needles": [
+   "AGE_VERIFICATION",
+   "age-verification"
+  ]
+ },
+ {
+  "file": "/assets/d9bf58a6117d727f.js",
+  "bytes": 57179,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/39d254c7240673c2.js",
+  "bytes": 50433,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/808130cd257db8d9.js",
+  "bytes": 47849,
+  "needles": [
+   "AGE_RESTRICTED"
+  ]
+ },
+ {
+  "file": "/assets/e6ddc63a749d462a.js",
+  "bytes": 43925,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/1e06a51a792210f3.js",
+  "bytes": 32251,
+  "needles": [
+   "over 18"
+  ]
+ },
+ {
+  "file": "/assets/640bde7fc4e6433a.js",
+  "bytes": 32045,
+  "needles": [
+   "over 18"
+  ]
+ },
+ {
+  "file": "/assets/898cd30ef0e7ecc2.js",
+  "bytes": 29636,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/5ef5043af38d5f2a.js",
+  "bytes": 29167,
+  "needles": [
+   "over 18",
+   "You must be 18"
+  ]
+ },
+ {
+  "file": "/assets/f7255f8e68678563.js",
+  "bytes": 29062,
+  "needles": [
+   "over 18",
+   "You must be 18"
+  ]
+ },
+ {
+  "file": "/assets/1ac7977fe0dd4876.js",
+  "bytes": 25047,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/1de9d2e3de5f650e.js",
+  "bytes": 23595,
+  "needles": [
+   "age_gate"
+  ]
+ },
+ {
+  "file": "/assets/f06cf9e08554eb34.js",
+  "bytes": 23108,
+  "needles": [
+   "age_gate"
+  ]
+ },
+ {
+  "file": "/assets/bf66c5c958691b89.js",
+  "bytes": 21567,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/e58f5f6b8d50cb67.js",
+  "bytes": 20868,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/5efa1646767c07a5.js",
+  "bytes": 19885,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/732bad52bce8fd23.js",
+  "bytes": 19765,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/581ad5c871e84eb9.js",
+  "bytes": 19652,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/bf7c67db415702dc.js",
+  "bytes": 19486,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/06e77260a8ecb9f6.js",
+  "bytes": 19406,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/045ba259eb079349.js",
+  "bytes": 18581,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/6a5b18b3f6b8a7f9.js",
+  "bytes": 18288,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/55ce6996887181a2.js",
+  "bytes": 18141,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/7f84826358a99b50.js",
+  "bytes": 18123,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/25d14116f9b26d33.js",
+  "bytes": 18069,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/244e294f794c432e.js",
+  "bytes": 17862,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/dd7c2666cf827521.js",
+  "bytes": 17835,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/61cc6f0d3cdeaa74.js",
+  "bytes": 17337,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/38ba8c54030f7cb7.js",
+  "bytes": 17325,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/69d65ad2e9f2e88b.js",
+  "bytes": 17007,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/a5dedf5741ae6e5e.js",
+  "bytes": 16810,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/0bc73ab61cb364a1.js",
+  "bytes": 16631,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/bb4e1b9f6490aca7.js",
+  "bytes": 16517,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/cee322b924ec94d8.js",
+  "bytes": 14161,
+  "needles": [
+   "ageRequired"
+  ]
+ },
+ {
+  "file": "/assets/85a4c7f0c136c120.js",
+  "bytes": 11542,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/4427b1a9b9dff431.js",
+  "bytes": 11177,
+  "needles": [
+   "age-gate"
+  ]
+ },
+ {
+  "file": "/assets/9f3aef6e19fedc81.js",
+  "bytes": 10256,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/f7852f1e89bcea67.js",
+  "bytes": 9627,
+  "needles": [
+   "date_of_birth",
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/47544ea65dc3d632.js",
+  "bytes": 9155,
+  "needles": [
+   "AGE_RESTRICTED"
+  ]
+ },
+ {
+  "file": "/assets/9c61d4a35c4372c5.js",
+  "bytes": 8764,
+  "needles": [
+   "dateOfBirth"
+  ]
+ },
+ {
+  "file": "/assets/8d2042759740d445.js",
+  "bytes": 8043,
+  "needles": [
+   "ageVerification",
+   "isAdult"
+  ]
+ },
+ {
+  "file": "/assets/eab12ce9426ab0ef.js",
+  "bytes": 7684,
+  "needles": [
+   "age_verification",
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/3f65eb475a2cd124.js",
+  "bytes": 7046,
+  "needles": [
+   "AGE_GATE",
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/882e599dc29036fa.js",
+  "bytes": 6698,
+  "needles": [
+   "ageCheck"
+  ]
+ },
+ {
+  "file": "/assets/361203b7340b13df.js",
+  "bytes": 6359,
+  "needles": [
+   "AGE_VERIFICATION",
+   "AGE_CHECK"
+  ]
+ },
+ {
+  "file": "/assets/cda24718ed082699.js",
+  "bytes": 4955,
+  "needles": [
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/b0cda28caad6c3ad.js",
+  "bytes": 4945,
+  "needles": [
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/0cd9442ebb333617.js",
+  "bytes": 4489,
+  "needles": [
+   "date_of_birth",
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/ce972cca5fee9822.js",
+  "bytes": 4442,
+  "needles": [
+   "age_gate",
+   "requires_age"
+  ]
+ },
+ {
+  "file": "/assets/fcc93266164cc8e4.js",
+  "bytes": 4415,
+  "needles": [
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/0381dd5f31aa8250.js",
+  "bytes": 4325,
+  "needles": [
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/6666927c35ef6eb7.js",
+  "bytes": 4163,
+  "needles": [
+   "date_of_birth",
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/da1208cf6acc85fd.js",
+  "bytes": 4121,
+  "needles": [
+   "age_verification",
+   "ageVerification",
+   "age-verification"
+  ]
+ },
+ {
+  "file": "/assets/275bf06f4d7cd5c6.js",
+  "bytes": 3688,
+  "needles": [
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/daf4df75293db25f.js",
+  "bytes": 3359,
+  "needles": [
+   "AGE_GATE",
+   "age_gate"
+  ]
+ },
+ {
+  "file": "/assets/03a5c7c112d25a13.js",
+  "bytes": 3348,
+  "needles": [
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/2aa2602bf89e6ee3.js",
+  "bytes": 3085,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/21f6ca58d7ad34ec.js",
+  "bytes": 2290,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/3d4cce4a600bdc7e.js",
+  "bytes": 2134,
+  "needles": [
+   "AGE_RESTRICTED"
+  ]
+ },
+ {
+  "file": "/assets/47031ee2e2c6b2fa.js",
+  "bytes": 2045,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/a2bda0df9fee71e0.js",
+  "bytes": 1968,
+  "needles": [
+   "ageVerification",
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/dd200058e60066ec.js",
+  "bytes": 1677,
+  "needles": [
+   "date_of_birth",
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/bd9ea6981f4569e8.js",
+  "bytes": 1432,
+  "needles": [
+   "age-restricted"
+  ]
+ },
+ {
+  "file": "/assets/08474468b3a52443.js",
+  "bytes": 1351,
+  "needles": [
+   "AGE_ASSURANCE"
+  ]
+ },
+ {
+  "file": "/assets/63bc37d53666d995.js",
+  "bytes": 1345,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/77024ddee7a8a786.js",
+  "bytes": 1139,
+  "needles": [
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/774a04fbdf15fe93.js",
+  "bytes": 943,
+  "needles": [
+   "AGE_GATE",
+   "age_gate"
+  ]
+ },
+ {
+  "file": "/assets/b6b8b6e97d91ff30.js",
+  "bytes": 731,
+  "needles": [
+   "ageVerification"
+  ]
+ },
+ {
+  "file": "/assets/20aaf6337dc33c76.js",
+  "bytes": 728,
+  "needles": [
+   "AGE_VERIFICATION"
+  ]
+ },
+ {
+  "file": "/assets/5a43d91b0636f008.js",
+  "bytes": 516,
+  "needles": [
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/9b1ac850134a5977.js",
+  "bytes": 515,
+  "needles": [
+   "AGE_GATE"
+  ]
+ },
+ {
+  "file": "/assets/18a3b3274ed72a0c.js",
+  "bytes": 406,
+  "needles": [
+   "AGE_GATE",
+   "age-gate"
+  ]
+ },
+ {
+  "file": "/assets/1cc5c6b8cb797c2b.js",
+  "bytes": 263,
+  "needles": [
+   "ageVerification"
+  ]
+ }
+]

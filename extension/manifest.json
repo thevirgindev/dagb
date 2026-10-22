@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "DAGB",
+  "version": "1.0.0",
+  "description": "Opens Discord's age-gated channels and servers without the age check.",
+  "minimum_chrome_version": "111",
+  "permissions": ["storage", "declarativeNetRequest", "declarativeNetRequestWithHostAccess"],
+  "host_permissions": [
+    "https://discord.com/*",
+    "https://*.discord.com/*",
+    "https://discordapp.com/*",
+    "https://*.discordapp.com/*"
+  ],
+  "background": {
+    "service_worker": "src/bg.js"
+  },
+  "action": {
+    "default_title": "DAGB",
+    "default_popup": "src/popup.html"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*", "https://*.discord.com/*", "https://discordapp.com/*", "https://*.discordapp.com/*"],
+      "js": ["src/main.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    },
+    {
+      "matches": ["https://discord.com/*", "https://*.discord.com/*", "https://discordapp.com/*", "https://*.discordapp.com/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": false
+    }
+  ]
+}

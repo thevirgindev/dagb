@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAGB</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root {
+    --background: oklch(0.141 0.005 285.823);
+    --foreground: oklch(0.985 0 0);
+    --card: oklch(0.21 0.006 285.885);
+    --card-foreground: oklch(0.985 0 0);
+    --primary: oklch(0.985 0 0);
+    --primary-foreground: oklch(0.21 0.006 285.885);
+    --secondary: oklch(0.274 0.006 286.033);
+    --secondary-foreground: oklch(0.985 0 0);
+    --muted: oklch(0.274 0.006 286.033);
+    --muted-foreground: oklch(0.705 0.015 286.067);
+    --accent: oklch(0.274 0.006 286.033);
+    --accent-foreground: oklch(0.985 0 0);
+    --border: oklch(0.274 0.006 286.033);
+    --input: oklch(0.274 0.006 286.033);
+    --ring: oklch(0.552 0.016 285.938);
+    --radius: 0.65rem;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    width: 380px;
+    background: var(--background);
+    color: var(--foreground);
+    font: 400 13.5px/1.5 'Quicksand', ui-rounded, 'SF Pro Rounded', 'Segoe UI Variable', system-ui, sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .shell { padding: 22px 20px 18px; display: flex; flex-direction: column; gap: 14px; }
+
+  .brand {
+    margin: 4px 0 10px;
+    text-align: center;
+    font-family: 'Outfit', 'Nunito', ui-rounded, system-ui, sans-serif;
+    font-size: 46px; font-weight: 800; letter-spacing: 0.1em;
+    line-height: 1;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #ffffff 0%, #d7dae0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 6px 24px rgba(0, 0, 0, 0.55);
+  }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 7px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  }
+
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 10px 11px; border-radius: calc(var(--radius) - 2px); transition: background-color .12s ease; }
+  .row:hover { background: var(--secondary); }
+  .row .txt { min-width: 0; }
+  .row .name { font-size: 14px; font-weight: 700; }
+  .row .desc { font-size: 12px; color: var(--muted-foreground); margin-top: 2px; line-height: 1.45; font-weight: 500; }
+
+  .btn {
+    height: 30px; padding: 0 14px; font: inherit; font-size: 12px; font-weight: 700;
+    color: var(--primary-foreground); background: var(--primary);
+    border: 1px solid var(--border); border-radius: calc(var(--radius) - 3px); cursor: pointer;
+  }
+  .btn:hover { opacity: 0.88; }
+  .btn:active { opacity: 0.78; }
+
+  .sw { position: relative; flex: 0 0 auto; width: 38px; height: 22px; }
+  .sw input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+  .sw .track {
+    position: absolute; inset: 0; border-radius: 999px;
+    background: var(--muted); border: 1px solid var(--border);
+    transition: background-color .16s ease, border-color .16s ease;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.35);
+  }
+  .sw .knob {
+    position: absolute; top: 50%; left: 2px; width: 17px; height: 17px;
+    margin-top: -8.5px; border-radius: 999px; background: var(--muted-foreground);
+    transition: transform .16s ease, background-color .16s ease;
+    pointer-events: none; box-shadow: 0 1px 2px rgba(0,0,0,.4);
+  }
+  .sw input:checked + .track { background: var(--primary); border-color: var(--primary); box-shadow: none; }
+  .sw input:checked + .track .knob { transform: translateX(16px); background: var(--primary-foreground); }
+  .sw input:focus-visible + .track { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+  select, input[type=text] {
+    height: 38px; width: 100%;
+    background: var(--background); color: var(--foreground);
+    border: 1px solid var(--input); border-radius: calc(var(--radius) - 3px);
+    padding: 0 11px; font: inherit; font-size: 13.5px; font-weight: 600; outline: none;
+  }
+  select:focus, input[type=text]:focus { border-color: var(--ring); box-shadow: 0 0 0 2px color-mix(in oklch, var(--ring) 30%, transparent); }
+  select { appearance: none; cursor: pointer; padding-right: 28px;
+    background-image: linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%), linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+    background-position: calc(100% - 16px) 16px, calc(100% - 11px) 16px;
+    background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+  }
+  .card .fields { padding: 5px 11px 11px; display: flex; flex-direction: column; gap: 12px; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field > span { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted-foreground); }
+
+  .foot { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; color: var(--muted-foreground); padding-top: 6px; }
+  .foot .sep { opacity: 0.45; }
+  .warn { font-size: 11px; color: var(--muted-foreground); text-align: center; line-height: 1.5; padding: 0 4px; }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <h1 class="brand">DAGB</h1>
+
+  <div class="card">
+    <div class="row">
+      <div class="txt"><div class="name">Turn it on</div><div class="desc">Master switch for everything below</div></div>
+      <label class="sw"><input type="checkbox" id="enabled"><span class="track"><span class="knob"></span></span></label>
+    </div>
+    <div class="row">
+      <div class="txt"><div class="name">Allow adult channels</div><div class="desc">Says the account may open 18 plus rooms</div></div>
+      <label class="sw"><input type="checkbox" id="forceNsfw"><span class="track"><span class="knob"></span></span></label>
+    </div>
+    <div class="row">
+      <div class="txt"><div class="name">Hide the age popup</div><div class="desc">Removes the age window if Discord puts it up anyway</div></div>
+      <label class="sw"><input type="checkbox" id="hideUi"><span class="track"><span class="knob"></span></span></label>
+    </div>
+    <div class="row">
+      <div class="txt"><div class="name">Send an adult birthday</div><div class="desc">Writes the birthday only when Discord reports something different, never more than one in 6 hours</div></div>
+      <label class="sw"><input type="checkbox" id="autoDob"><span class="track"><span class="knob"></span></span></label>
+    </div>
+    <div class="row">
+      <div class="txt"><div class="name">Keep it that way</div><div class="desc">Watches what Discord answers and re-sends only if it drifted, nothing runs on a timer</div></div>
+      <label class="sw"><input type="checkbox" id="keepAlive"><span class="track"><span class="knob"></span></span></label>
+    </div>
+    <div class="row">
+      <div class="txt"><div class="name">Change the device fingerprint</div><div class="desc">Moves the request off the device Discord has flagged, so the 18 plus rooms answer</div></div>
+      <label class="sw"><input type="checkbox" id="rewriteFingerprint"><span class="track"><span class="knob"></span></span></label>
+    </div>
+    <div class="row" id="accessRow" style="display:none">
+      <div class="txt"><div class="name">Give Discord access</div><div class="desc">Firefox keeps site access optional, one Allow lets this in</div></div>
+      <button class="btn" id="grant">Allow</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="fields">
+      <div class="field">
+        <span>Age status we report</span>
+        <select id="status">
+          <option value="3">Verified adult</option>
+          <option value="4">Inferred adult</option>
+          <option value="2">Verified teen</option>
+          <option value="5">Inferred teen</option>
+        </select>
+      </div>
+      <div class="field">
+        <span>Birthday we send</span>
+        <input type="text" id="dob" spellcheck="false" autocomplete="off" placeholder="1995-06-15">
+      </div>
+    </div>
+  </div>
+
+  <p class="warn">Discord may flag repeated writes as spam until you reset your password. Use a spare account.</p>
+
+  <div class="foot">
+    <span id="footVersion">-</span>
+    <span class="sep">·</span>
+    <span>Chromium and Zen</span>
+  </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

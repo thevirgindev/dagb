@@ -1,0 +1,564 @@
+[
+  {
+    "asset": "/assets/vnd-emoji.eb9fa44f37371d3b.js",
+    "bytes": 1192954,
+    "needles": [
+      "underage"
+    ],
+    "ctx": [
+      {
+        "needle": "underage",
+        "at": 379024,
+        "around": "Version\":6,\"spriteIndex\":1112},{\"names\":[\"non_potable_water\"],\"surrogates\":\"\\uD83D\\uDEB1\",\"unicodeVersion\":6,\"spriteIndex\":1113},{\"names\":[\"underage\"],\"surrogates\":\"\\uD83D\\uDD1E\",\"unicodeVersion\":6,\"spriteIndex\":1114},{\"names\":[\"no_mobile_phones\"],\"surrogates\":\"\\uD83D\\uDCF5\",\"unicodeVersion\":6,\"spriteIndex\":1115},{\"nam"
+      },
+      {
+        "needle": "underage",
+        "at": 838573,
+        "around": "prings\":1419,\"hot_springs\":1419,\"no_pedestrians\":1420,\"do_not_litter\":1421,\"no_littering\":1421,\"no_bicycles\":1422,\"non_potable_water\":1423,\"underage\":1424,\"no_mobile_phones\":1425,\"no_smoking\":1426,\"exclamation\":1427,\"grey_exclamation\":1428,\"question\":1429,\"question_mark\":1429,\"grey_question\":1430,\"bangbang\":1431,\"inter"
+      }
+    ]
+  },
+  {
+    "asset": "/assets/915213.fd03e358c52ac418.js",
+    "bytes": 911,
+    "needles": [
+      "safetySetting"
+    ],
+    "ctx": [
+      {
+        "needle": "safetySetting",
+        "at": 123,
+        "around": "\"use strict\";(this.webpackChunkdiscord_app=this.webpackChunkdiscord_app||[]).push([[\"915213\"],{323747(e,_,t){e.exports={I:\"safetySettingsNotice__9536c\",b:\"closeButton__9536c\"}},774156(e,_,t){e.exports={nM:\"row__28071\",yF:\"divider__28071\",uW:\"section__28071\",my:\"avatar__28071\",Qq:\"text__28071\",Kk:\"icon_"
+      }
+    ]
+  },
+  {
+    "asset": "/assets/352456.2937da015febe6bb.js",
+    "bytes": 4349,
+    "needles": [
+      "ageVerification"
+    ],
+    "ctx": [
+      {
+        "needle": "ageVerification",
+        "at": 4268,
+        "around": "hannelSelectionFormItem__4c084\",HA:\"channelName__4c084\",Qw:\"channelSelection__4c084\",$e:\"warning__4c084\",Qy:\"notificationToggle__4c084\",XI:\"ageVerificationNotice__4c084\"}},606290(e,_,d){e.exports={y:\"divider__1de9c\"}}}]);"
+      }
+    ]
+  },
+  {
+    "asset": "/assets/72993.12b05c70c0a616dc.js",
+    "bytes": 1268835,
+    "needles": [
+      "k-id"
+    ],
+    "ctx": [
+      {
+        "needle": "k-id",
+        "at": 776939,
+        "around": "eg:/^candidate:(\\S*) (\\d*) (\\S*) (\\d*) (\\S*) (\\d*) typ (\\S*)(?: raddr (\\S*) rport (\\d*))?(?: tcptype (\\S*))?(?: generation (\\d*))?(?: network-id (\\d*))?(?: network-cost (\\d*))?/,names:[\"foundation\",\"component\",\"transport\",\"priority\",\"ip\",\"port\",\"type\",\"raddr\",\"rport\",\"tcptype\",\"generation\",\"network-id\",\"network-cost\"],"
+      },
+      {
+        "needle": "k-id",
+        "at": 777097,
+        "around": "twork-cost (\\d*))?/,names:[\"foundation\",\"component\",\"transport\",\"priority\",\"ip\",\"port\",\"type\",\"raddr\",\"rport\",\"tcptype\",\"generation\",\"network-id\",\"network-cost\"],format:function(e){var t=\"candidate:%s %d %s %d %s %d typ %s\";return t+=(null!=e.raddr?\" raddr %s rport %d\":\"%v%v\")+(null!=e.tcptype?\" tcptype %s\":\"%v\"),null!"
+      },
+      {
+        "needle": "k-id",
+        "at": 777333,
+        "around": "ull!=e.raddr?\" raddr %s rport %d\":\"%v%v\")+(null!=e.tcptype?\" tcptype %s\":\"%v\"),null!=e.generation&&(t+=\" generation %d\"),t+=(null!=e[\"network-id\"]?\" network-id %d\":\"%v\")+(null!=e[\"network-cost\"]?\" network-cost %d\":\"%v\")}},{name:\"endOfCandidates\",reg:/^(end-of-candidates)/},{name:\"remoteCandidates\",reg:/^remote-candidat"
+      },
+      {
+        "needle": "k-id",
+        "at": 777348,
+        "around": "raddr %s rport %d\":\"%v%v\")+(null!=e.tcptype?\" tcptype %s\":\"%v\"),null!=e.generation&&(t+=\" generation %d\"),t+=(null!=e[\"network-id\"]?\" network-id %d\":\"%v\")+(null!=e[\"network-cost\"]?\" network-cost %d\":\"%v\")}},{name:\"endOfCandidates\",reg:/^(end-of-candidates)/},{name:\"remoteCandidates\",reg:/^remote-candidates:(.*)/,format"
+      }
+    ]
+  },
+  {
+    "asset": "/assets/web.31d1cd3e6e440749.js",
+    "bytes": 12547650,
+    "needles": [
+      "age_verification",
+      "ageVerification",
+      "AGE_VERIFICATION",
+      "age-verification",
+      "AGE_GATE",
+      "age_gate",
+      "safetySetting",
+      "safety_setting",
+      "ageAssurance",
+      "age_assurance",
+      "AGE_ASSURANCE",
+      "persona",
+      "isAdult",
+      "underage",
+      "UNDERAGE",
+      "ADULT_ONLY",
+      "age_restricted",
+      "ageVerificationStatus"
+    ],
+    "ctx": [
+      {
+        "needle": "age_verification",
+        "at": 473372,
+        "around": "=\"family_center_action\",eM.SAFETY_HUB_VIEWED=\"safety_hub_viewed\",eM.SAFETY_HUB_ACTION=\"safety_hub_action\",eM.AGE_VERIFICATION_MODAL_VIEWED=\"age_verification_modal_viewed\",eM.AGE_VERIFICATION_MODAL_CLICKED=\"age_verification_modal_clicked\",eM.AGE_VERIFICATION_DM_CLICKED=\"age_verification_dm_clicked\",eM.AGE_VERIFICATION_T"
+      },
+      {
+        "needle": "age_verification",
+        "at": 473438,
+        "around": "M.SAFETY_HUB_ACTION=\"safety_hub_action\",eM.AGE_VERIFICATION_MODAL_VIEWED=\"age_verification_modal_viewed\",eM.AGE_VERIFICATION_MODAL_CLICKED=\"age_verification_modal_clicked\",eM.AGE_VERIFICATION_DM_CLICKED=\"age_verification_dm_clicked\",eM.AGE_VERIFICATION_TOAST_VIEWED=\"age_verification_toast_viewed\",eM.NSFW_SPACE_WARNING_"
+      },
+      {
+        "needle": "age_verification",
+        "at": 473502,
+        "around": "L_VIEWED=\"age_verification_modal_viewed\",eM.AGE_VERIFICATION_MODAL_CLICKED=\"age_verification_modal_clicked\",eM.AGE_VERIFICATION_DM_CLICKED=\"age_verification_dm_clicked\",eM.AGE_VERIFICATION_TOAST_VIEWED=\"age_verification_toast_viewed\",eM.NSFW_SPACE_WARNING_MODAL_VIEWED=\"nsfw_space_warning_modal_viewed\",eM.NSFW_SPACE_WAR"
+      },
+      {
+        "needle": "age_verification",
+        "at": 473565,
+        "around": "DAL_CLICKED=\"age_verification_modal_clicked\",eM.AGE_VERIFICATION_DM_CLICKED=\"age_verification_dm_clicked\",eM.AGE_VERIFICATION_TOAST_VIEWED=\"age_verification_toast_viewed\",eM.NSFW_SPACE_WARNING_MODAL_VIEWED=\"nsfw_space_warning_modal_viewed\",eM.NSFW_SPACE_WARNING_MODAL_CLICKED=\"nsfw_space_warning_modal_clicked\",eM.BOOSTI"
+      },
+      {
+        "needle": "age_verification",
+        "at": 2794251,
+        "around": "_PREVIEW=\"search_media_preview\",r.CONTENT_AND_SOCIAL_NOTICE=\"content_and_social_notice\",r.DEV_TOOLS_AGE_VERIFICATION_RETRY_MODAL=\"dev_tools_age_verification_retry_modal\",r.SAFETY_FLOWS=\"safety_flows\",r.AUTOMATED_UNDERAGE_APPEALS=\"automated_underage_appeals\",r.EXPRESSIVE_GET_STARTED=\"expressive_get_started\",r.STAGE_CHAN"
+      },
+      {
+        "needle": "age_verification",
+        "at": 2794528,
+        "around": "ARTED=\"expressive_get_started\",r.STAGE_CHANNEL_RAISE_HAND=\"stage_channel_raise_hand\",r.STAGE_CHANNEL_AGE_VERIFICATION_PROMPT=\"stage_channel_age_verification_prompt\",r.START_STAGE_PROMPT=\"start_stage_prompt\",r.AGE_RESTRICTED_DM_COMMANDS_SETTINGS=\"age_restricted_dm_commands_settings\",r.AGE_RESTRICTED_SERVERS_ACCESS_SETTI"
+      },
+      {
+        "needle": "ageVerification",
+        "at": 2790658,
+        "around": "owAgeVerification:S,showAgeVerificationGetStartedModal:function(e){let{onClose:t,entryPoint:r}=e;if(h(r)){let e=d.default.getCurrentUser()?.ageVerificationStatus;function c(){s.h.dispatch({type:\"CLOSE_AGE_VERIFICATION_MODAL\",status:e})}s.h.dispatch({type:\"INITIATE_AGE_VERIFICATION\"}),g({entryPoint:r,onClose:()=>{c(),t?"
+      },
+      {
+        "needle": "ageVerification",
+        "at": 2798668,
+        "around": "tends l.A{_previousAgeVerificationStatus=null;handlePostConnectionOpen=()=>{this._previousAgeVerificationStatus=f.default.getCurrentUser()?.ageVerificationStatus??null};handleCurrentUserUpdate=e=>{let{user:t}=e,n=(0,f.transformUser)(t).ageVerificationStatus??null,r=this._previousAgeVerificationStatus!==n,l=r&&n===s.Tk."
+      },
+      {
+        "needle": "ageVerification",
+        "at": 2798764,
+        "around": "ificationStatus=f.default.getCurrentUser()?.ageVerificationStatus??null};handleCurrentUserUpdate=e=>{let{user:t}=e,n=(0,f.transformUser)(t).ageVerificationStatus??null,r=this._previousAgeVerificationStatus!==n,l=r&&n===s.Tk.VERIFIED_ADULT&&(0,u.d6)(i.t.AGE_GATED_SPACES);r&&(0,T.a6)();try{if(l){let e=h.Ay.getChannelId()"
+      },
+      {
+        "needle": "ageVerification",
+        "at": 2806503,
+        "around": "nction m(){return!O()}function g(e){return e===s.Tk.VERIFIED_TEEN||e===s.Tk.INFERRED_TEEN}function S(){return g(c.default.getCurrentUser()?.ageVerificationStatus)}function N(){return(0,a.bG)([c.default],()=>g(c.default.getCurrentUser()?.ageVerificationStatus))}function C(){let e=c.default.getCurrentUser(),t=e?.ageVerif"
+      },
+      {
+        "needle": "ageVerification",
+        "at": 2806600,
+        "around": "n S(){return g(c.default.getCurrentUser()?.ageVerificationStatus)}function N(){return(0,a.bG)([c.default],()=>g(c.default.getCurrentUser()?.ageVerificationStatus))}function C(){let e=c.default.getCurrentUser(),t=e?.ageVerificationStatus;return t===s.Tk.VERIFIED_ADULT||t===s.Tk.INFERRED_ADULT}function O(){let e=(0,a.bG)"
+      },
+      {
+        "needle": "ageVerification",
+        "at": 2806675,
+        "around": "N(){return(0,a.bG)([c.default],()=>g(c.default.getCurrentUser()?.ageVerificationStatus))}function C(){let e=c.default.getCurrentUser(),t=e?.ageVerificationStatus;return t===s.Tk.VERIFIED_ADULT||t===s.Tk.INFERRED_ADULT}function O(){let e=(0,a.bG)([c.default],()=>c.default.getCurrentUser());return e?.ageVerificationStatu"
+      },
+      {
+        "needle": "AGE_VERIFICATION",
+        "at": 254411,
+        "around": "UILD_TAGS_BADGE_PACK_PLANT\",S.GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES=\"GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES\",S.GAME_SERVERS=\"GAME_SERVERS\",S.AGE_VERIFICATION_LARGE_GUILD=\"AGE_VERIFICATION_LARGE_GUILD\",S.RELAY_ENABLED=\"RELAY_ENABLED\",S.CONFERENCE=\"CONFERENCE\",S);let t8=Object.freeze({SUPPRESS_JOIN_NOTIFICATIONS:1,SUPPRES"
+      },
+      {
+        "needle": "AGE_VERIFICATION",
+        "at": 254441,
+        "around": "GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES=\"GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES\",S.GAME_SERVERS=\"GAME_SERVERS\",S.AGE_VERIFICATION_LARGE_GUILD=\"AGE_VERIFICATION_LARGE_GUILD\",S.RELAY_ENABLED=\"RELAY_ENABLED\",S.CONFERENCE=\"CONFERENCE\",S);let t8=Object.freeze({SUPPRESS_JOIN_NOTIFICATIONS:1,SUPPRESS_PREMIUM_SUBSCRIPTIONS:2,SUPP"
+      },
+      {
+        "needle": "AGE_VERIFICATION",
+        "at": 275863,
+        "around": "tcha/decider\",AGE_ASSURANCE_TEST:\"/age-verification/test\",VERIFY_AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age-verification/suspended/manual-review\",REGISTER_INCODE_INTERVIEW:\"/ag"
+      },
+      {
+        "needle": "AGE_VERIFICATION",
+        "at": 275928,
+        "around": "AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age-verification/suspended/manual-review\",REGISTER_INCODE_INTERVIEW:\"/age-verification/incode/interview\",CREATE_INCODE_SESSION:\"/age-veri"
+      },
+      {
+        "needle": "AGE_VERIFICATION",
+        "at": 276133,
+        "around": "nded/manual-review\",REGISTER_INCODE_INTERVIEW:\"/age-verification/incode/interview\",CREATE_INCODE_SESSION:\"/age-verification/incode/session\",AGE_VERIFICATION_METHODS:\"/age-verification/methods\",AGE_VERIFICATION_METHODS_V2:\"/age-verification/methods/v2\",AGE_VERIFICATION_SUSPENDED_METHODS_V2:\"/age-verification/suspended/m"
+      },
+      {
+        "needle": "AGE_VERIFICATION",
+        "at": 276186,
+        "around": "erification/incode/interview\",CREATE_INCODE_SESSION:\"/age-verification/incode/session\",AGE_VERIFICATION_METHODS:\"/age-verification/methods\",AGE_VERIFICATION_METHODS_V2:\"/age-verification/methods/v2\",AGE_VERIFICATION_SUSPENDED_METHODS_V2:\"/age-verification/suspended/methods/v2\",GOOGLE_WALLET_REQUEST:\"/age-verification/g"
+      },
+      {
+        "needle": "age-verification",
+        "at": 275758,
+        "around": ",MENTIONS_MESSAGE_ID:e=>`/users/@me/mentions/${e}`,CAPTCHA:\"/users/@me/captcha/verify\",CAPTCHA_TEST:\"/captcha/decider\",AGE_ASSURANCE_TEST:\"/age-verification/test\",VERIFY_AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFI"
+      },
+      {
+        "needle": "age-verification",
+        "at": 275794,
+        "around": "mentions/${e}`,CAPTCHA:\"/users/@me/captcha/verify\",CAPTCHA_TEST:\"/captcha/decider\",AGE_ASSURANCE_TEST:\"/age-verification/test\",VERIFY_AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age"
+      },
+      {
+        "needle": "age-verification",
+        "at": 275835,
+        "around": "a/verify\",CAPTCHA_TEST:\"/captcha/decider\",AGE_ASSURANCE_TEST:\"/age-verification/test\",VERIFY_AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age-verification/suspended/manual-review\",RE"
+      },
+      {
+        "needle": "age-verification",
+        "at": 275896,
+        "around": "\"/age-verification/test\",VERIFY_AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age-verification/suspended/manual-review\",REGISTER_INCODE_INTERVIEW:\"/age-verification/incode/interview\","
+      },
+      {
+        "needle": "age-verification",
+        "at": 275971,
+        "around": "2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age-verification/suspended/manual-review\",REGISTER_INCODE_INTERVIEW:\"/age-verification/incode/interview\",CREATE_INCODE_SESSION:\"/age-verification/incode/session\",AGE_VERIFICATION_M"
+      },
+      {
+        "needle": "age-verification",
+        "at": 276041,
+        "around": "erification/manual-review\",AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW:\"/age-verification/suspended/manual-review\",REGISTER_INCODE_INTERVIEW:\"/age-verification/incode/interview\",CREATE_INCODE_SESSION:\"/age-verification/incode/session\",AGE_VERIFICATION_METHODS:\"/age-verification/methods\",AGE_VERIFICATION_METHODS_V2:\"/age-v"
+      },
+      {
+        "needle": "AGE_GATE",
+        "at": 237859,
+        "around": "RD\",i.MFA_STEP=\"MFA_STEP\",i.LOGGING_IN_MFA=\"LOGGING_IN_MFA\",i.MFA_SMS_STEP=\"MFA_SMS_STEP\",i.LOGGING_IN_MFA_SMS=\"LOGGING_IN_MFA_SMS\",i.LOGIN_AGE_GATE=\"LOGIN_AGE_GATE\",i.PASSWORD_RECOVERY_PHONE_VERIFICATION=\"PASSWORD_RECOVERY_VERIFY_PHONE\",i.PHONE_IP_AUTHORIZATION=\"PHONE_IP_AUTHORIZATION\",i),tj=((r={}).OPEN=\"OPEN\",r.SUBM"
+      },
+      {
+        "needle": "AGE_GATE",
+        "at": 237875,
+        "around": "MFA_STEP\",i.LOGGING_IN_MFA=\"LOGGING_IN_MFA\",i.MFA_SMS_STEP=\"MFA_SMS_STEP\",i.LOGGING_IN_MFA_SMS=\"LOGGING_IN_MFA_SMS\",i.LOGIN_AGE_GATE=\"LOGIN_AGE_GATE\",i.PASSWORD_RECOVERY_PHONE_VERIFICATION=\"PASSWORD_RECOVERY_VERIFY_PHONE\",i.PHONE_IP_AUTHORIZATION=\"PHONE_IP_AUTHORIZATION\",i),tj=((r={}).OPEN=\"OPEN\",r.SUBMITTING=\"SUBMITTI"
+      },
+      {
+        "needle": "AGE_GATE",
+        "at": 329446,
+        "around": "TES=50104]=\"INVALID_USER_SETTINGS_BYTES\",er[er.INVALID_USER_SETTINGS_DATA=50105]=\"INVALID_USER_SETTINGS_DATA\",er[er.INVALID_ACTIVITY_LAUNCH_AGE_GATED=50165]=\"INVALID_ACTIVITY_LAUNCH_AGE_GATED\",er[er.INVALID_SKU_ATTACHMENT_NO_ARCHIVES=50186]=\"INVALID_SKU_ATTACHMENT_NO_ARCHIVES\",er[er.INVALID_ACTIVITY_LAUNCH_DEV_PREVIEW_"
+      },
+      {
+        "needle": "AGE_GATE",
+        "at": 329488,
+        "around": "r[er.INVALID_USER_SETTINGS_DATA=50105]=\"INVALID_USER_SETTINGS_DATA\",er[er.INVALID_ACTIVITY_LAUNCH_AGE_GATED=50165]=\"INVALID_ACTIVITY_LAUNCH_AGE_GATED\",er[er.INVALID_SKU_ATTACHMENT_NO_ARCHIVES=50186]=\"INVALID_SKU_ATTACHMENT_NO_ARCHIVES\",er[er.INVALID_ACTIVITY_LAUNCH_DEV_PREVIEW_GUILD_SIZE=50209]=\"INVALID_ACTIVITY_LAUNCH"
+      },
+      {
+        "needle": "AGE_GATE",
+        "at": 335877,
+        "around": "GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED=7e5]=\"USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED\",er[er.USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED=700001]=\"USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED\",er[er.USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED=700002]=\"USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED\",er),ij"
+      },
+      {
+        "needle": "AGE_GATE",
+        "at": 335932,
+        "around": "UILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED\",er[er.USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED=700001]=\"USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED\",er[er.USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED=700002]=\"USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED\",er),ij=((ea={}).GUILD_CREATE_INVITE_SUGGESTION=\"Guild Create "
+      },
+      {
+        "needle": "age_gate",
+        "at": 435708,
+        "around": "EED_GUILD_VISITED=\"af_guild_visited\",eM.ACTIVITY_FEED_DM_VISITED=\"af_dm_visited\",eM.ACTIVITY_FEED_VIEWED=\"af_viewed\",eM.AGE_GATE_SUBMITTED=\"age_gate_submitted\",eM.AGE_GATE_ACTION=\"age_gate_action\",eM.REGISTER_SUBMIT_ERRORED=\"register_submit_errored\",eM.GUILD_WELCOME_SCREEN_SETTINGS_UPDATED=\"guild_welcome_screen_setting"
+      },
+      {
+        "needle": "age_gate",
+        "at": 435748,
+        "around": "ACTIVITY_FEED_DM_VISITED=\"af_dm_visited\",eM.ACTIVITY_FEED_VIEWED=\"af_viewed\",eM.AGE_GATE_SUBMITTED=\"age_gate_submitted\",eM.AGE_GATE_ACTION=\"age_gate_action\",eM.REGISTER_SUBMIT_ERRORED=\"register_submit_errored\",eM.GUILD_WELCOME_SCREEN_SETTINGS_UPDATED=\"guild_welcome_screen_settings_updated\",eM.GUILD_WELCOME_SCREEN_OPTIO"
+      },
+      {
+        "needle": "age_gate",
+        "at": 1046780,
+        "around": "GuildUpdate(e){let{guild:t}=e,n=io.A.getGuildId();if(null!=n&&t.id===n&&(t.owner_configured_content_level===W.ftr.AGE_RESTRICTED||(0,id.v)(\"age_gate_manager\")&&il.uA.has(t.nsfw_level)))return void(0,nG.kK)(t.id,null)}}let iA=new iE;var ih=n(451988),iI=n(927813),ip=n(881615),iT=n(789999);let im=er.default.getToken();cla"
+      },
+      {
+        "needle": "age_gate",
+        "at": 2634084,
+        "around": "s);let b={label_type:o.Hr.NONE,release_phase:\"\",label_from:null,label_until:null,omit_badge_from_surfaces:[]},M={application_id:\"\",requires_age_gate:!1,legacy_responsive_aspect_ratio:!1,default_orientation_lock_state:c.N.UNLOCKED,tablet_default_orientation_lock_state:c.N.UNLOCKED,supported_platforms:[o.Yl.WEB],client_p"
+      },
+      {
+        "needle": "age_gate",
+        "at": 2679463,
+        "around": "Allowed){let e=t??await N({applicationId:i,channelId:r?.id,guildId:r?.getGuildId()??void 0});if(null==e||e.embeddedActivityConfig?.requires_age_gate&&!await new Promise(t=>{s?.(),function(e){let{application:t,channelId:i,onAgree:r,onDisagree:a}=e,s=null!=(0,_.Ay)({application:t,channelId:i})?c.KX:c.SY;(0,u.openModalLaz"
+      },
+      {
+        "needle": "age_gate",
+        "at": 2685308,
+        "around": "Store:o,VoiceStateStore:d,PermissionStore:c,GuildStore:_}=e;if(null==t)return 8;if(a?.nsfwAllowed===!1&&i?.embeddedActivityConfig?.requires_age_gate===!0)return 7;if(!l)return 5;if(!(0,E.A)(i?.embeddedActivityConfig?.supported_platforms))return 6;let h=null!=r?r:d.getVoiceStateForSession(t,n?.session_id)?.channelId;if("
+      },
+      {
+        "needle": "safetySetting",
+        "at": 8453724,
+        "around": "e\",\"swipeRightToLeftMode\",e=>e??s.kW.SWIPE_RIGHT_TO_LEFT_UNSET,e=>e);let ts=I(\"userContent\",\"lastReceivedChangelogId\",e=>e??\"0\",e=>e),tl=I(\"safetySettings\",\"ignoreProfileSpeedbumpDisabled\",e=>e??!1,e=>e),to=I(\"appearance\",\"uiDensity\",e=>e===s.NS.UNSET_UI_DENSITY?s.NS.DEFAULT:e??s.NS.DEFAULT,e=>e),td=I(\"inAppFeedbackSet"
+      },
+      {
+        "needle": "safetySetting",
+        "at": 11258626,
+        "around": "ips=tg.internalBinaryRead(e,e.uint32(),n,r.clips);break;case 20:r.forLater=tD.internalBinaryRead(e,e.uint32(),n,r.forLater);break;case 21:r.safetySettings=tL.internalBinaryRead(e,e.uint32(),n,r.safetySettings);break;case 22:r.icymiSettings=tb.internalBinaryRead(e,e.uint32(),n,r.icymiSettings);break;case 23:r.applicatio"
+      },
+      {
+        "needle": "safetySetting",
+        "at": 11258680,
+        "around": "k;case 20:r.forLater=tD.internalBinaryRead(e,e.uint32(),n,r.forLater);break;case 21:r.safetySettings=tL.internalBinaryRead(e,e.uint32(),n,r.safetySettings);break;case 22:r.icymiSettings=tb.internalBinaryRead(e,e.uint32(),n,r.icymiSettings);break;case 23:r.applications=tP.internalBinaryRead(e,e.uint32(),n,r.applications"
+      },
+      {
+        "needle": "safetySetting",
+        "at": 11261382,
+        "around": "g(19,y.O0.LengthDelimited).fork(),n).join(),e.forLater&&tD.internalBinaryWrite(e.forLater,t.tag(20,y.O0.LengthDelimited).fork(),n).join(),e.safetySettings&&tL.internalBinaryWrite(e.safetySettings,t.tag(21,y.O0.LengthDelimited).fork(),n).join(),e.icymiSettings&&tb.internalBinaryWrite(e.icymiSettings,t.tag(22,y.O0.Length"
+      },
+      {
+        "needle": "safetySetting",
+        "at": 11261423,
+        "around": "(),e.forLater&&tD.internalBinaryWrite(e.forLater,t.tag(20,y.O0.LengthDelimited).fork(),n).join(),e.safetySettings&&tL.internalBinaryWrite(e.safetySettings,t.tag(21,y.O0.LengthDelimited).fork(),n).join(),e.icymiSettings&&tb.internalBinaryWrite(e.icymiSettings,t.tag(22,y.O0.LengthDelimited).fork(),n).join(),e.application"
+      },
+      {
+        "needle": "safetySetting",
+        "at": 11356716,
+        "around": "ame:\"ignore_profile_speedbump_disabled\",kind:\"scalar\",T:8},{no:3,name:\"spending_limit_settings\",kind:\"message\",T:()=>tO}])}create(e){let t={safetySettingsPreset:0,ignoreProfileSpeedbumpDisabled:!1};return globalThis.Object.defineProperty(t,v.$,{enumerable:!1,value:this}),void 0!==e&&(0,D.x)(this,t,e),t}internalBinaryRe"
+      },
+      {
+        "needle": "safety_setting",
+        "at": 412880,
+        "around": "le_message_loaded\",eM.EXPLICIT_MEDIA_RETROACTIVE_SCAN_COMPLETE=\"explicit_media_retroactive_scan_complete\",eM.SAFETY_SETTINGS_NOTICE_ACTION=\"safety_settings_notice_action\",eM.SAFETY_WARNING_VIEWED=\"safety_warning_viewed\",eM.SAFETY_WARNING_MODAL_VIEWED=\"safety_warning_modal_viewed\",eM.SAFETY_WARNING_CTA_CLICKED=\"safety_w"
+      },
+      {
+        "needle": "safety_setting",
+        "at": 11256484,
+        "around": "adcast\",kind:\"message\",T:()=>tT},{no:19,name:\"clips\",kind:\"message\",T:()=>tg},{no:20,name:\"for_later\",kind:\"message\",T:()=>tD},{no:21,name:\"safety_settings\",kind:\"message\",T:()=>tL},{no:22,name:\"icymi_settings\",kind:\"message\",T:()=>tb},{no:23,name:\"applications\",kind:\"message\",T:()=>tP},{no:24,name:\"ads\",kind:\"message\""
+      },
+      {
+        "needle": "safety_setting",
+        "at": 11356462,
+        "around": "(this.typeName,e,t),t}}let tO=new tC;class tR extends b.G{constructor(){super(\"discord_protos.discord_users.v1.SafetySettings\",[{no:1,name:\"safety_settings_preset\",kind:\"enum\",T:()=>[\"discord_protos.discord_users.v1.SafetySettingsPresetType\",ei]},{no:2,name:\"ignore_profile_speedbump_disabled\",kind:\"scalar\",T:8},{no:3,n"
+      },
+      {
+        "needle": "ageAssurance",
+        "at": 11576492,
+        "around": ",e.uint32(),n,r.storeCountry);break;case 12:r.restrictedSchedule=eR.internalBinaryRead(e,e.uint32(),n,r.restrictedSchedule);break;case 13:r.ageAssuranceData=eV.internalBinaryRead(e,e.uint32(),n,r.ageAssuranceData);break;case 14:r.perks=ts.internalBinaryRead(e,e.uint32(),n,r.perks);break;case 15:r.badges=eG.internalBina"
+      },
+      {
+        "needle": "ageAssurance",
+        "at": 11576548,
+        "around": "Schedule=eR.internalBinaryRead(e,e.uint32(),n,r.restrictedSchedule);break;case 13:r.ageAssuranceData=eV.internalBinaryRead(e,e.uint32(),n,r.ageAssuranceData);break;case 14:r.perks=ts.internalBinaryRead(e,e.uint32(),n,r.perks);break;case 15:r.badges=eG.internalBinaryRead(e,e.uint32(),n,r.badges);break;case 16:r.countryD"
+      },
+      {
+        "needle": "ageAssurance",
+        "at": 11580005,
+        "around": "mited).fork(),n).join(),e.restrictedSchedule&&eR.internalBinaryWrite(e.restrictedSchedule,t.tag(12,S.O0.LengthDelimited).fork(),n).join(),e.ageAssuranceData&&eV.internalBinaryWrite(e.ageAssuranceData,t.tag(13,S.O0.LengthDelimited).fork(),n).join(),e.perks&&ts.internalBinaryWrite(e.perks,t.tag(14,S.O0.LengthDelimited).f"
+      },
+      {
+        "needle": "ageAssurance",
+        "at": 11580048,
+        "around": "e&&eR.internalBinaryWrite(e.restrictedSchedule,t.tag(12,S.O0.LengthDelimited).fork(),n).join(),e.ageAssuranceData&&eV.internalBinaryWrite(e.ageAssuranceData,t.tag(13,S.O0.LengthDelimited).fork(),n).join(),e.perks&&ts.internalBinaryWrite(e.perks,t.tag(14,S.O0.LengthDelimited).fork(),n).join(),e.badges&&eG.internalBinary"
+      },
+      {
+        "needle": "age_assurance",
+        "at": 11574688,
+        "around": "age\",T:()=>eA},{no:11,name:\"store_country\",kind:\"message\",T:()=>e2},{no:12,name:\"restricted_schedule\",kind:\"message\",T:()=>eR},{no:13,name:\"age_assurance_data\",kind:\"message\",T:()=>eV},{no:14,name:\"perks\",kind:\"message\",T:()=>ts},{no:15,name:\"badges\",kind:\"message\",T:()=>eG},{no:16,name:\"country_data\",kind:\"message\",T:"
+      },
+      {
+        "needle": "AGE_ASSURANCE",
+        "at": 275737,
+        "around": "\"/users/@me/mentions\",MENTIONS_MESSAGE_ID:e=>`/users/@me/mentions/${e}`,CAPTCHA:\"/users/@me/captcha/verify\",CAPTCHA_TEST:\"/captcha/decider\",AGE_ASSURANCE_TEST:\"/age-verification/test\",VERIFY_AGE:\"/age-verification/verify\",VERIFY_AGE_V2:\"/age-verification/verify/v2\",AGE_VERIFICATION_MANUAL_REVIEW:\"/age-verification/manu"
+      },
+      {
+        "needle": "AGE_ASSURANCE",
+        "at": 11545641,
+        "around": "=4]=\"DISCORD\",E[E.GOOGLE_WALLET=5]=\"GOOGLE_WALLET\",E[E.APPLE_APP_STORE=6]=\"APPLE_APP_STORE\",E[E.GOOGLE_PLAY=7]=\"GOOGLE_PLAY\",E),Z=((A={})[A.AGE_ASSURANCE_GROUP_UNSPECIFIED=0]=\"AGE_ASSURANCE_GROUP_UNSPECIFIED\",A[A.AGE_ASSURANCE_GROUP_13=1]=\"AGE_ASSURANCE_GROUP_13\",A[A.AGE_ASSURANCE_GROUP_14=2]=\"AGE_ASSURANCE_GROUP_14\",A"
+      },
+      {
+        "needle": "AGE_ASSURANCE",
+        "at": 11545677,
+        "around": "GOOGLE_WALLET\",E[E.APPLE_APP_STORE=6]=\"APPLE_APP_STORE\",E[E.GOOGLE_PLAY=7]=\"GOOGLE_PLAY\",E),Z=((A={})[A.AGE_ASSURANCE_GROUP_UNSPECIFIED=0]=\"AGE_ASSURANCE_GROUP_UNSPECIFIED\",A[A.AGE_ASSURANCE_GROUP_13=1]=\"AGE_ASSURANCE_GROUP_13\",A[A.AGE_ASSURANCE_GROUP_14=2]=\"AGE_ASSURANCE_GROUP_14\",A[A.AGE_ASSURANCE_GROUP_15=3]=\"AGE_AS"
+      },
+      {
+        "needle": "AGE_ASSURANCE",
+        "at": 11545714,
+        "around": "=\"APPLE_APP_STORE\",E[E.GOOGLE_PLAY=7]=\"GOOGLE_PLAY\",E),Z=((A={})[A.AGE_ASSURANCE_GROUP_UNSPECIFIED=0]=\"AGE_ASSURANCE_GROUP_UNSPECIFIED\",A[A.AGE_ASSURANCE_GROUP_13=1]=\"AGE_ASSURANCE_GROUP_13\",A[A.AGE_ASSURANCE_GROUP_14=2]=\"AGE_ASSURANCE_GROUP_14\",A[A.AGE_ASSURANCE_GROUP_15=3]=\"AGE_ASSURANCE_GROUP_15\",A[A.AGE_ASSURANCE_G"
+      },
+      {
+        "needle": "AGE_ASSURANCE",
+        "at": 11545741,
+        "around": "LE_PLAY=7]=\"GOOGLE_PLAY\",E),Z=((A={})[A.AGE_ASSURANCE_GROUP_UNSPECIFIED=0]=\"AGE_ASSURANCE_GROUP_UNSPECIFIED\",A[A.AGE_ASSURANCE_GROUP_13=1]=\"AGE_ASSURANCE_GROUP_13\",A[A.AGE_ASSURANCE_GROUP_14=2]=\"AGE_ASSURANCE_GROUP_14\",A[A.AGE_ASSURANCE_GROUP_15=3]=\"AGE_ASSURANCE_GROUP_15\",A[A.AGE_ASSURANCE_GROUP_16=4]=\"AGE_ASSURANCE_G"
+      },
+      {
+        "needle": "AGE_ASSURANCE",
+        "at": 11545769,
+        "around": "Z=((A={})[A.AGE_ASSURANCE_GROUP_UNSPECIFIED=0]=\"AGE_ASSURANCE_GROUP_UNSPECIFIED\",A[A.AGE_ASSURANCE_GROUP_13=1]=\"AGE_ASSURANCE_GROUP_13\",A[A.AGE_ASSURANCE_GROUP_14=2]=\"AGE_ASSURANCE_GROUP_14\",A[A.AGE_ASSURANCE_GROUP_15=3]=\"AGE_ASSURANCE_GROUP_15\",A[A.AGE_ASSURANCE_GROUP_16=4]=\"AGE_ASSURANCE_GROUP_16\",A[A.AGE_ASSURANCE_G"
+      },
+      {
+        "needle": "persona",
+        "at": 512121,
+        "around": "\",ej.INVITABLE=\"invitable\",ej.AUTO_ARCHIVE_DURATION=\"auto_archive_duration\",ej.FLAGS=\"flags\",ej.THEME_COLORS=\"theme_colors\",ej.PERSONALITY=\"personality\",ej.AUTHOR_ID=\"author_id\",ej.ENABLE_EMOTICONS=\"enable_emoticons\",ej.EXPIRE_BEHAVIOR=\"expire_behavior\",ej.EXPIRE_GRACE_PERIOD=\"expire_grace_period\",ej.PRIVACY_LEVEL=\"pri"
+      },
+      {
+        "needle": "persona",
+        "at": 527360,
+        "around": "\",[ty.D.OPENCRITIC]:\"OpenCritic\",[ty.D.SENSORTOWER]:\"SensorTower\"});var r9=((e3={}).USAGE_STATISTICS=\"usage_statistics\",e3.PERSONALIZATION=\"personalization\",e3),ae=((e5={})[e5.MUTUAL_FRIENDS=2]=\"MUTUAL_FRIENDS\",e5[e5.MUTUAL_GUILDS=4]=\"MUTUAL_GUILDS\",e5[e5.NO_RELATION=8]=\"NO_RELATION\",e5);let at=14;var an=((e6={}).OVERL"
+      },
+      {
+        "needle": "persona",
+        "at": 3008554,
+        "around": "){let s,{query:l,splitQuery:o,allowEmptySections:d,scoreMethod:c,permissionContext:u,installOnDemand:_}=r,{context:E,userId:A,roleIds:h,isImpersonating:f}=u,I=E?.guild_id!=null?M.we(e.permissions,E.guild_id,A,h,f):null,p=E?.guild_id!=null?M._W(e.permissions,E,E.guild_id):null,T=[];for(let r of t)M.zl(r,u,{applicationAl"
+      },
+      {
+        "needle": "persona",
+        "at": 3019281,
+        "around": "mmands:i.useMemo(()=>{if(null==o)return;let t=null!=e.guild_id&&u?.permissions!=null?A.we(u.permissions,e.guild_id,I.userId,I.roleIds,I.isImpersonating):null,n=null!=e.guild_id&&u?.permissions!=null?A._W(u.permissions,e,e.guild_id):null;return o.filter(e=>A.zl(e,I,{applicationAllowedForUser:t,applicationAllowedForChann"
+      },
+      {
+        "needle": "persona",
+        "at": 3037927,
+        "around": "ions:p,hasBaseAccessPermissions:T,hasSendMessagesPermission:S}=g(n,e instanceof d.YB&&e.isThread());return{context:n,userId:a,roleIds:h,isImpersonating:I,commandTypes:t,computedPermissions:p,hasBaseAccessPermissions:T,hasSendMessagesPermission:S,allowNsfw:m(n,s,r,(0,c.wh)(A.A.getGuild(i)))}}function T(e,t){let n=i.useM"
+      },
+      {
+        "needle": "persona",
+        "at": 3038704,
+        "around": "ccessPermissions:r,hasSendMessagesPermission:a}=g(n,e instanceof d.YB&&e.isThread());return{context:n,userId:h,roleIds:p,commandTypes:t,isImpersonating:T,computedPermissions:i,hasBaseAccessPermissions:r,hasSendMessagesPermission:a,allowNsfw:S}},[t,n,T,p,h,S,e])}function m(e,t,n,i){return!!t&&(!(e instanceof d.YB)||(nul"
+      },
+      {
+        "needle": "isAdult",
+        "at": 6713258,
+        "around": "email:t}=e;return null!=t?h.intl.formatToPlainString(A.default.xNEkdx,{email:t}):h.intl.string(A.default.Xyjnwn)},icon:0},3:{header:e=>{let{isAdult:t}=e;return t?h.intl.string(A.default.bS5x94):h.intl.string(A.default.MzX4RP)},description:e=>{let{isAdult:t}=e;return t?h.intl.format(A.default.GKzqWi,{link:\"https://suppo"
+      },
+      {
+        "needle": "isAdult",
+        "at": 6713365,
+        "around": "jnwn)},icon:0},3:{header:e=>{let{isAdult:t}=e;return t?h.intl.string(A.default.bS5x94):h.intl.string(A.default.MzX4RP)},description:e=>{let{isAdult:t}=e;return t?h.intl.format(A.default.GKzqWi,{link:\"https://support.discord.com/hc/articles/14155043715735\"}):h.intl.format(A.default[\"69F+eS\"],{link:\"https://support.disco"
+      },
+      {
+        "needle": "underage",
+        "at": 1046486,
+        "around": "0})}handleAgeGateSuccess(){is.A.showSuccessToast(i_.OB.EXISTING_USER_AGE_GATE_SUCCESS),(0,tJ.closeModal)(iu.Uy)}handleAgeGateFailure(e){let{underageMessage:t}=e;(0,tJ.updateModal)(iu.Uy,e=>(0,M.jsx)(ic.default,{underageMessage:t,...e}))}handleAgeGateModalClose(){(0,tJ.closeModal)(iu.Uy)}handleGuildUpdate(e){let{guild:t"
+      },
+      {
+        "needle": "underage",
+        "at": 1046557,
+        "around": "E_GATE_SUCCESS),(0,tJ.closeModal)(iu.Uy)}handleAgeGateFailure(e){let{underageMessage:t}=e;(0,tJ.updateModal)(iu.Uy,e=>(0,M.jsx)(ic.default,{underageMessage:t,...e}))}handleAgeGateModalClose(){(0,tJ.closeModal)(iu.Uy)}handleGuildUpdate(e){let{guild:t}=e,n=io.A.getGuildId();if(null!=n&&t.id===n&&(t.owner_configured_conte"
+      },
+      {
+        "needle": "underage",
+        "at": 2793220,
+        "around": "var i,r,a,s,l,o,d,c=n(734057),u=n(174459),_=((i={}).NSFW_CHANNEL_AGE_VERIFY=\"nsfw_channel_age_verify\",i.NSFW_CHANNEL_UNDERAGE=\"nsfw_channel_underage\",i.NSFW_CHANNEL_VERIFIED=\"nsfw_channel_verified\",i.GUILD_LARGE_SERVER=\"guild_large_server\",i.GUILD_LARGE_SERVER_UNDERAGE=\"guild_large_server_underage\",i.NSFW_EMBEDDED_ACTI"
+      },
+      {
+        "needle": "underage",
+        "at": 2793370,
+        "around": "i.NSFW_CHANNEL_VERIFIED=\"nsfw_channel_verified\",i.GUILD_LARGE_SERVER=\"guild_large_server\",i.GUILD_LARGE_SERVER_UNDERAGE=\"guild_large_server_underage\",i.NSFW_EMBEDDED_ACTIVITY=\"nsfw_embedded_activity\",i.NSFW_APP_LISTING=\"nsfw_app_listing\",i.SPOILER_CHANNEL=\"spoiler_channel\",i),E=n(652215),A=((r={}).GET_STARTED_MODAL=\"ge"
+      },
+      {
+        "needle": "underage",
+        "at": 2794351,
+        "around": "AGE_VERIFICATION_RETRY_MODAL=\"dev_tools_age_verification_retry_modal\",r.SAFETY_FLOWS=\"safety_flows\",r.AUTOMATED_UNDERAGE_APPEALS=\"automated_underage_appeals\",r.EXPRESSIVE_GET_STARTED=\"expressive_get_started\",r.STAGE_CHANNEL_RAISE_HAND=\"stage_channel_raise_hand\",r.STAGE_CHANNEL_AGE_VERIFICATION_PROMPT=\"stage_channel_age"
+      },
+      {
+        "needle": "underage",
+        "at": 2796321,
+        "around": "RIFIED_TEEN=\"verified_teen\",d.VERIFIED_ADULT=\"verified_adult\",d.ERROR=\"error\",d.FAE_FAILED=\"fae_failed\",d.ID_FAILED=\"id_failed\",d.UNDERAGE=\"underage\",d);function O(e){u.default.track(E.HAw.AGE_VERIFICATION_TOAST_VIEWED,{toast_type:e})}},40449(e,t,n){\"use strict\";n.d(t,{CH:()=>d,NC:()=>u,SW:()=>c,VF:()=>h,XM:()=>A,uv:()"
+      },
+      {
+        "needle": "UNDERAGE",
+        "at": 335760,
+        "around": "ACCOUNT_REVERT_ACCOUNT_NOT_FOUND\",er[er.TOO_MANY_SCHEDULED_MESSAGES=640003]=\"TOO_MANY_SCHEDULED_MESSAGES\",er[er.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED=7e5]=\"USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED\",er[er.USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED=700001]=\"USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATE"
+      },
+      {
+        "needle": "UNDERAGE",
+        "at": 335814,
+        "around": "ULED_MESSAGES=640003]=\"TOO_MANY_SCHEDULED_MESSAGES\",er[er.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED=7e5]=\"USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED\",er[er.USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED=700001]=\"USER_GUILD_JOIN_DISCOVERABLE_SERVER_AGE_GATED\",er[er.USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED"
+      },
+      {
+        "needle": "UNDERAGE",
+        "at": 618381,
+        "around": "solve().then(n.bind(n,608401));await t({guildId:e,returnChannelId:o})}return c}catch(t){if(t.body?.code===P.t02.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED&&(0,o.yO)(U.w_.JOIN_LARGE_GUILD_UNDERAGE),t.body?.code===P.t02.TOO_MANY_USER_GUILDS&&((0,I.Om)(y.default.getCurrentUser())?G(P.cZu):G(P.qlD)),t.body?.code===P.t"
+      },
+      {
+        "needle": "UNDERAGE",
+        "at": 618433,
+        "around": "turnChannelId:o})}return c}catch(t){if(t.body?.code===P.t02.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED&&(0,o.yO)(U.w_.JOIN_LARGE_GUILD_UNDERAGE),t.body?.code===P.t02.TOO_MANY_USER_GUILDS&&((0,I.Om)(y.default.getCurrentUser())?G(P.cZu):G(P.qlD)),t.body?.code===P.t02.GUILD_AT_CAPACITY&&M.A.show({title:w.intl.string("
+      },
+      {
+        "needle": "UNDERAGE",
+        "at": 638120,
+        "around": "ise.resolve().then(n.bind(n,608401));await e({guildId:_})}return u?.(c),e.body},e=>{throw e.body?.code===ei.t02.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED&&(0,m.yO)(er.w_.JOIN_LARGE_GUILD_UNDERAGE),e.body?.code===ei.t02.USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED&&(0,S.e)(T?.guild?.id),h.h.dispatch({type:\"INVITE"
+      },
+      {
+        "needle": "UNDERAGE",
+        "at": 638173,
+        "around": ":_})}return u?.(c),e.body},e=>{throw e.body?.code===ei.t02.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED&&(0,m.yO)(er.w_.JOIN_LARGE_GUILD_UNDERAGE),e.body?.code===ei.t02.USER_GUILD_JOIN_AGE_RESTRICTED_IOS_DISALLOWED&&(0,S.e)(T?.guild?.id),h.h.dispatch({type:\"INVITE_ACCEPT_FAILURE\",code:d,error:{message:e.body?.messag"
+      },
+      {
+        "needle": "ADULT_ONLY",
+        "at": 11975168,
+        "around": "CLASSIFICATION_IGDB\",i[i.AGENCY_CLASSIFICATION_APPLE=8]=\"AGENCY_CLASSIFICATION_APPLE\",i),s=n(381438);let l={ALL:new Set([1,2,3,4,5,6,7]),IS_ADULT_ONLY:new Set([])},o={ALL:new Set([1,2,3,4,5,6]),IS_ADULT_ONLY:new Set([5])},d={ALL:new Set([1]),IS_ADULT:new Set([1])},c={ALL:new Set([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,"
+      },
+      {
+        "needle": "ADULT_ONLY",
+        "at": 11975225,
+        "around": "AGENCY_CLASSIFICATION_APPLE\",i),s=n(381438);let l={ALL:new Set([1,2,3,4,5,6,7]),IS_ADULT_ONLY:new Set([])},o={ALL:new Set([1,2,3,4,5,6]),IS_ADULT_ONLY:new Set([5])},d={ALL:new Set([1]),IS_ADULT:new Set([1])},c={ALL:new Set([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]),ADULT_THEMES:new Set([21])},u={ALL:new S"
+      },
+      {
+        "needle": "ADULT_ONLY",
+        "at": 11975424,
+        "around": "et([1])},c={ALL:new Set([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]),ADULT_THEMES:new Set([21])},u={ALL:new Set([1,2,3,4,5]),IS_ADULT_ONLY:new Set([])};var _=n(136722);let E=Object.freeze({EMERGENCY_ONLY_USE_IF_YOU_HAVE_TO_FORCE_MARK_AGE_RESTRICTED:_.vI(0),SEXUALLY_SUGGESTIVE_IMAGERY:_.vI(1),SEXUALLY_SUGGES"
+      },
+      {
+        "needle": "ADULT_ONLY",
+        "at": 11977037,
+        "around": "D_CLASSIFICATION,g.automated_classifications)),null!=g.agency_ratings&&(null!=g.agency_ratings.esrb&&T.push((t=g.agency_ratings.esrb,_=o.IS_ADULT_ONLY.has(t.rating)?s.Y.ADULT:s.Y.EVERYONE,{source:a.AGENCY_CLASSIFICATION_ESRB,status:_})),null!=g.agency_ratings.pegi&&T.push((n=g.agency_ratings.pegi,E=u.IS_ADULT_ONLY.has("
+      },
+      {
+        "needle": "ADULT_ONLY",
+        "at": 11977202,
+        "around": "s.Y.ADULT:s.Y.EVERYONE,{source:a.AGENCY_CLASSIFICATION_ESRB,status:_})),null!=g.agency_ratings.pegi&&T.push((n=g.agency_ratings.pegi,E=u.IS_ADULT_ONLY.has(n.rating)?s.Y.ADULT:s.Y.EVERYONE,{source:a.AGENCY_CLASSIFICATION_PEGI,status:E})),null!=g.agency_ratings.gop&&T.push((i=g.agency_ratings.gop,A=d.IS_ADULT.has(i.class"
+      },
+      {
+        "needle": "ADULT_ONLY",
+        "at": 11977711,
+        "around": "Y.ADULT:s.Y.EVERYONE,{source:a.AGENCY_CLASSIFICATION_IGDB,status:h})),null!=g.agency_ratings.apple&&T.push((r=g.agency_ratings.apple,I=l.IS_ADULT_ONLY.has(r.rating)?s.Y.ADULT:s.Y.EVERYONE,{source:a.AGENCY_CLASSIFICATION_APPLE,status:I}))),function(e){let t=null;for(let r of e){var n,i;if(null==t){t=r;continue}n=r.statu"
+      },
+      {
+        "needle": "age_restricted",
+        "at": 2794634,
+        "around": "ERIFICATION_PROMPT=\"stage_channel_age_verification_prompt\",r.START_STAGE_PROMPT=\"start_stage_prompt\",r.AGE_RESTRICTED_DM_COMMANDS_SETTINGS=\"age_restricted_dm_commands_settings\",r.AGE_RESTRICTED_SERVERS_ACCESS_SETTINGS=\"age_restricted_servers_access_settings\",r.FAMILY_CENTER_CONNECTION=\"family_center_connection\",r.PAREN"
+      },
+      {
+        "needle": "age_restricted",
+        "at": 2794713,
+        "around": "=\"start_stage_prompt\",r.AGE_RESTRICTED_DM_COMMANDS_SETTINGS=\"age_restricted_dm_commands_settings\",r.AGE_RESTRICTED_SERVERS_ACCESS_SETTINGS=\"age_restricted_servers_access_settings\",r.FAMILY_CENTER_CONNECTION=\"family_center_connection\",r.PARENTAL_CONSENT_LOCKOUT=\"parental_consent_lockout\",r.TINY_BRONCO_POPOVER=\"tiny_bron"
+      },
+      {
+        "needle": "age_restricted",
+        "at": 8461610,
+        "around": "ent_filters_setting\",i.DM_SPAM_SETTING=\"dm_spam_setting\",i.DM_SAFETY_ALERTS_SETTING=\"dm_safety_alerts_setting\",i.AGE_RESTRICTED_DM_SETTING=\"age_restricted_dm_setting\",i.AGE_RESTRICTED_IOS_SETTING=\"age_restricted_ios_setting\",i.PERMISSIONS_GUILD_SELECTOR=\"permissions_guild_selector\",i.PERMISSIONS_DMS_SETTING=\"permission"
+      },
+      {
+        "needle": "age_restricted",
+        "at": 8461667,
+        "around": "i.DM_SAFETY_ALERTS_SETTING=\"dm_safety_alerts_setting\",i.AGE_RESTRICTED_DM_SETTING=\"age_restricted_dm_setting\",i.AGE_RESTRICTED_IOS_SETTING=\"age_restricted_ios_setting\",i.PERMISSIONS_GUILD_SELECTOR=\"permissions_guild_selector\",i.PERMISSIONS_DMS_SETTING=\"permissions_dms_setting\",i.PERMISSIONS_MESSAGE_REQUESTS_SETTING=\"pe"
+      },
+      {
+        "needle": "ageVerificationStatus",
+        "at": 2790658,
+        "around": "owAgeVerification:S,showAgeVerificationGetStartedModal:function(e){let{onClose:t,entryPoint:r}=e;if(h(r)){let e=d.default.getCurrentUser()?.ageVerificationStatus;function c(){s.h.dispatch({type:\"CLOSE_AGE_VERIFICATION_MODAL\",status:e})}s.h.dispatch({type:\"INITIATE_AGE_VERIFICATION\"}),g({entryPoint:r,onClose:()=>{c(),t?"
+      },
+      {
+        "needle": "ageVerificationStatus",
+        "at": 2798668,
+        "around": "tends l.A{_previousAgeVerificationStatus=null;handlePostConnectionOpen=()=>{this._previousAgeVerificationStatus=f.default.getCurrentUser()?.ageVerificationStatus??null};handleCurrentUserUpdate=e=>{let{user:t}=e,n=(0,f.transformUser)(t).ageVerificationStatus??null,r=this._previousAgeVerificationStatus!==n,l=r&&n===s.Tk."
+      },
+      {
+        "needle": "ageVerificationStatus",
+        "at": 2798764,
+        "around": "ificationStatus=f.default.getCurrentUser()?.ageVerificationStatus??null};handleCurrentUserUpdate=e=>{let{user:t}=e,n=(0,f.transformUser)(t).ageVerificationStatus??null,r=this._previousAgeVerificationStatus!==n,l=r&&n===s.Tk.VERIFIED_ADULT&&(0,u.d6)(i.t.AGE_GATED_SPACES);r&&(0,T.a6)();try{if(l){let e=h.Ay.getChannelId()"
+      },
+      {
+        "needle": "ageVerificationStatus",
+        "at": 2806503,
+        "around": "nction m(){return!O()}function g(e){return e===s.Tk.VERIFIED_TEEN||e===s.Tk.INFERRED_TEEN}function S(){return g(c.default.getCurrentUser()?.ageVerificationStatus)}function N(){return(0,a.bG)([c.default],()=>g(c.default.getCurrentUser()?.ageVerificationStatus))}function C(){let e=c.default.getCurrentUser(),t=e?.ageVerif"
+      },
+      {
+        "needle": "ageVerificationStatus",
+        "at": 2806600,
+        "around": "n S(){return g(c.default.getCurrentUser()?.ageVerificationStatus)}function N(){return(0,a.bG)([c.default],()=>g(c.default.getCurrentUser()?.ageVerificationStatus))}function C(){let e=c.default.getCurrentUser(),t=e?.ageVerificationStatus;return t===s.Tk.VERIFIED_ADULT||t===s.Tk.INFERRED_ADULT}function O(){let e=(0,a.bG)"
+      },
+      {
+        "needle": "ageVerificationStatus",
+        "at": 2806675,
+        "around": "N(){return(0,a.bG)([c.default],()=>g(c.default.getCurrentUser()?.ageVerificationStatus))}function C(){let e=c.default.getCurrentUser(),t=e?.ageVerificationStatus;return t===s.Tk.VERIFIED_ADULT||t===s.Tk.INFERRED_ADULT}function O(){let e=(0,a.bG)([c.default],()=>c.default.getCurrentUser());return e?.ageVerificationStatu"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+# Ignore the local build outputs and the recon dump
+extension-dev/
+extension-firefox/
+extension-firefox-dev/
+dist/
+recon/hits/
+recon/lazy-hits/
+recon/app.html
+recon/helium-procs.json
+*.png
+!extension/icons/*.png
+node_modules/

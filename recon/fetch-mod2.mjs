@@ -1,0 +1,48 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
+const DIR = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36';
+const web = fs.readFileSync(path.join(DIR, 'hits', 'web.31d1cd3e6e440749.js'), 'utf8');
+const map = new Map();
+const re = /(\d{1,6}):"([0-9a-f]{8,32})"/g;
+let m;
+while ((m = re.exec(web)) !== null) map.set(m[1], m[2]);
+
+const MARKERS = [
+  '323073(e', '323073:(e', '323073(t', '323073:(t', '323073(n', '323073:function', '323073:async',
+  'isNSFW(', 'isNSFW:', 'mature', 'MATURE',
+];
+const outDir = path.join(DIR, 'lazy-hits3');
+fs.mkdirSync(outDir, { recursive: true });
+const labels = {};
+let ok = 0, fail = 0, done = 0, failIds = [];
+const queue = [...map.keys()];
+const existing = new Set(fs.readdirSync(outDir).map((f) => f.replace('.js', '')));
+
+async function grab(id) {
+  const hash = map.get(id);
+  try {
+    const r = await fetch('https://discord.com/assets/' + hash + '.js', { headers: { 'user-agent': UA } });
+    if (!r.ok) { fail++; failIds.push(id); return; }
+    const t = Buffer.from(await r.arrayBuffer()).toString('utf8');
+    const found = MARKERS.filter((x) => t.includes(x));
+    if (found.length && !existing.has(id)) {
+      fs.writeFileSync(path.join(outDir, id + '.js'), t);
+      labels[id] = { hash, markers: found };
+      ok++;
+    }
+  } catch { fail++; failIds.push(id); }
+  done++;
+  if (done % 200 === 0) process.stderr.write(`\r${done}/${queue.length} new=${ok} fail=${fail}   `);
+}
+
+await Promise.all(Array.from({ length: 16 }, async () => {
+  while (queue.length) { const id = queue.shift(); await grab(id); }
+}));
+
+console.log(`\nnew=${ok} fail=${fail}`);
+console.log('fail ids:', failIds.slice(0, 12).join(','));
+const merged = JSON.parse(fs.readFileSync(path.join(DIR, 'labels3.json'), 'utf8'));
+for (const [k, v] of Object.entries(labels)) merged[k] = v;
+fs.writeFileSync(path.join(DIR, 'labels3.json'), JSON.stringify(merged, null, 1));
