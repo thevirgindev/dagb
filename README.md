@@ -1,4 +1,4 @@
-<img width="691" height="276" alt="image" src="https://github.com/user-attachments/assets/954e6cc7-bac7-4e10-9025-1a5a7b9fa161" /># DAGB
+# DAGB
 
 Some Discord places ask about your age before they open: 18+ channels, age-restricted servers and the invite screens that come with them. DAGB, a chromium extension that makes Discord skip all of that: you go back to browsing, the age popups stay away, and all of it just opens.
 
