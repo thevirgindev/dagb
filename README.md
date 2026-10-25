@@ -1,8 +1,6 @@
 # DAGB
 
-Some Discord places ask about your age before they open: 18+ channels, age-restricted servers and the invite screens that come with them. DAGB makes Discord skip all of that: you go back to browsing, the age popups stay away, and all of it just opens.
-
-It works on Chrome, Edge, Helium, Brave and Zen or Firefox. Nothing to sign up for, nothing to install extra, it all happens inside the browser.
+Some Discord places ask about your age before they open: 18+ channels, age-restricted servers and the invite screens that come with them. DAGB, a chromium extension that makes Discord skip all of that: you go back to browsing, the age popups stay away, and all of it just opens.
 
 ## Warning, read this first
 
@@ -20,20 +18,18 @@ Discord can still flag an account on their own side for other reasons (their sco
 
 ## How to install
 
-**Chrome, Edge, Helium, Brave**
+**Chrome Extensions**
 
 1. Open `chrome://extensions` (or `edge://extensions`)
 2. Turn on Developer mode
 3. Click Load unpacked and pick the folder that has `manifest.json` in it
 4. Go to `https://discord.com/app` and you're done
 
-**Zen or Firefox**
+**Firefox Add-ons**
 
 1. Open `about:debugging#/runtime/this-firefox`
 2. Click Load Temporary Add-on and pick `manifest.json`
 3. Open Discord, then open the DAGB popup once and press Allow next to Give Discord access
-
-Firefox asks for that one Allow because it treats site access as optional. Chrome browsers don't need it.
 
 ## The toggles
 
@@ -55,6 +51,4 @@ Big age-gated communities can also refuse a join from their own side, at the ser
 
 ## Not my problem
 
-DAGB (Discord Age Gate Bypass) is not made by Discord, and I didn't build it because I hate Discord. I built it because I don't want to upload my face or my ID to a third party just to prove my age, and Discord itself has been breached multiple times, so I'm not handing that data to anyone else either.
-
-The rest is short: this breaks Discord's Terms of Service, and installing it is your choice. I'm not responsible for flags, suspensions, bans, or anything that happens to your account after that. If that sounds bad, skip it, and use a spare account.
+DAGB (Discord Age Gate Bypass) is not made by Discord and i didnt build it because i hate discord. Using it breaks Discord's Terms of Service, and that's a choice you make when you install it. I'm not responsible for anything that happens after that: flags, suspensions, bans, lost accounts, lost data, whatever. If that sounds bad, use a spare account.
