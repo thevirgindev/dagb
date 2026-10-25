@@ -6,7 +6,7 @@ Some Discord places ask about your age before they open: 18+ channels, age-restr
 
 This version does not write to your account. No birthday updates, no PATCH requests, nothing. The age gate is handled entirely inside the browser, so DAGB itself can't trip Discord's spam detection anymore. The old "you broke Discord's rules for spam" notice came from those writes, and they're gone.
 
-Discord can still flag an account on their own side for other reasons (their scoring, not ours), and only they know exactly what trips it. If you want Discord to stop demoting the account server-side for good, verify legitimately through k-id: start the age verification in Discord until you hit the QR code, then scan it with your phone at https://verifier.amplitudes.me. That makes the account genuinely verified adult on Discord's servers, and DAGB has nothing left to fight. Use a spare account either way.
+Discord can still flag an account on their own side for other reasons (their scoring, not ours), and only they know exactly what trips it. If you want Discord to stop demoting the account server-side for good, verify legitimately through k-id (k-ID is Discord's own age assurance vendor): start the age verification in Discord until you hit the QR code, then scan it with your phone at https://verifier.amplitudes.me. That makes the account genuinely verified adult on Discord's servers, and DAGB has nothing left to fight. Use a spare account either way.
 
 ## What it does
 
