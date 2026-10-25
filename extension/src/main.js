@@ -4,7 +4,7 @@
 
   if (window.__AGEGATE__) return;
 
-  const version = '1.0.0';
+  const version = '1.0.2';
   const statusCodes = { UNVERIFIED: 1, VERIFIED_TEEN: 2, VERIFIED_ADULT: 3, INFERRED_ADULT: 4, INFERRED_TEEN: 5 };
 
   const defaults = {
@@ -246,45 +246,21 @@
   }
 
   function submitRealDob(reason, forced) {
-    if (!config.autoDob || stats.dobAttempts > 3) return Promise.resolve(false);
-    const now = Date.now();
-    if (forced) {
-      if (now - readStamp('agegate_dob_bypass') < oneDayMs) {
-        pushLog('dob:bypass-capped', { reason: reason });
-        return Promise.resolve(false);
-      }
-    } else if (now - readStamp('agegate_dob_last') < sixHoursMs) {
-      pushLog('dob:cooldown', { reason: reason });
-      return Promise.resolve(false);
+    return Promise.resolve(false);
+  }
+
+  function accountAgeMs() {
+    if (!currentUserId || !/^\d+$/.test(currentUserId)) return Number.POSITIVE_INFINITY;
+    try {
+      const created = Number((BigInt(currentUserId) >> 22n) + 1420070400000n);
+      return Date.now() - created;
+    } catch (e) {
+      return Number.POSITIVE_INFINITY;
     }
-    const headers = authHeaders();
-    if (!headers) return Promise.resolve(false);
-    stats.dobAttempts++;
-    stampKey('agegate_dob_last', now);
-    if (forced) stampKey('agegate_dob_bypass', now);
-    pushLog('dob:attempt', { reason: reason, birthday: config.dob, forced: forced === true });
-    return nativeFetch.call(window, '/api/v9/users/@me', {
-      method: 'PATCH',
-      credentials: 'include',
-      headers: headers,
-      body: JSON.stringify({ birthday: config.dob }),
-    }).then(function (r) {
-      pushLog('dob:result', { status: r.status });
-      return r.ok;
-    }).catch(function (e) {
-      pushLog('dob:error', { error: String(e) });
-      return false;
-    });
   }
 
   function keepAlive() {
-    if (!config.enabled || !config.keepAlive || !config.autoDob) return Promise.resolve(false);
-    if (stats.dobAttempts > 3) return Promise.resolve(false);
-    if (lastServerStatus === null || lastServerStatus === config.status) return Promise.resolve(false);
-    return submitRealDob('keepalive', false).then(function (sent) {
-      if (sent) pushLog('keepalive:reapplied', { raw: lastServerStatus, want: config.status });
-      return sent;
-    });
+    return Promise.resolve(false);
   }
 
   function applyApiPatch(url, status, data) {

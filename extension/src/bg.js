@@ -43,6 +43,7 @@ function dnrRule(spValue, id, filter) {
     condition: {
       urlFilter: filter,
       resourceTypes: ['xmlhttprequest', 'other'],
+      requestMethods: ['get', 'head'],
     },
   };
 }
@@ -83,6 +84,8 @@ function installWebRequestListener() {
     chrome.webRequest.onBeforeSendHeaders.addListener(
       function (details) {
         if (!currentSp) return {};
+        const method = (details.method || 'GET').toUpperCase();
+        if (method !== 'GET' && method !== 'HEAD') return {};
         const headers = details.requestHeaders || [];
         const out = [];
         for (const h of headers) {

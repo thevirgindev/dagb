@@ -6,9 +6,9 @@ It works on Chrome, Edge, Helium, Brave and Zen or Firefox. Nothing to sign up f
 
 ## Warning, read this first
 
-Discord watches for account writes that look automated, and DAGB's birthday update can read as one. That can flag the account for spam: you'll see a "you broke Discord's rules for spam" notice, some features are limited for about 2 days, and the record sits on the account for 2 years. Resetting your password clears the violation right away.
+This version does not write to your account. No birthday updates, no PATCH requests, nothing. The age gate is handled entirely inside the browser, so DAGB itself can't trip Discord's spam detection anymore. The old "you broke Discord's rules for spam" notice came from those writes, and they're gone.
 
-So: use a spare account for this. Not your main one. This version was built after that exact thing happened, and the birthday update is now rarely sent: at most one every 6 hours, and only when Discord reports something different from what the page sees. When an official age screen demands it, the rule is once per day. The account flag is still Discord's side of the fence, and only they know exactly what trips it.
+Discord can still flag an account on their own side for other reasons (their scoring, not ours), and only they know exactly what trips it. If you want Discord to stop demoting the account server-side for good, verify legitimately through k-id: start the age verification in Discord until you hit the QR code, then scan it with your phone at https://verifier.amplitudes.me. That makes the account genuinely verified adult on Discord's servers, and DAGB has nothing left to fight. Use a spare account either way.
 
 ## What it does
 
@@ -42,8 +42,8 @@ Firefox asks for that one Allow because it treats site access as optional. Chrom
 | Turn it on | Master switch for everything |
 | Allow adult channels | Lets you into the 18+ rooms |
 | Hide the age popup | Closes any age check window Discord shows |
-| Send an adult birthday | Writes the birthday only when Discord reports something different, at most one per 6 hours |
-| Keep it that way | Watches what Discord answers and re-sends only if it drifted, nothing runs on a timer |
+| Send an adult birthday | No longer writes to the account; the age gate is handled in the browser only |
+| Keep it that way | No longer writes; the client-side rewrite re-applies on every page load |
 | Change the device fingerprint | Makes 18+ rooms load when they refuse for some device |
 | Give Discord access | Firefox and Zen only, the one-time Allow button |
 
@@ -52,3 +52,9 @@ Firefox asks for that one Allow because it treats site access as optional. Chrom
 If Discord ever changes something on their side and a channel refuses to open again, reload the extension page first, that fixes most of it.
 
 Big age-gated communities can also refuse a join from their own side, at the server. That one is not a screen the browser can rewrite, so those joins are the one thing this can't force.
+
+## Not my problem
+
+DAGB (Discord Age Gate Bypass) is not made by Discord, and I didn't build it because I hate Discord. I built it because I don't want to upload my face or my ID to a third party just to prove my age, and Discord itself has been breached multiple times, so I'm not handing that data to anyone else either.
+
+The rest is short: this breaks Discord's Terms of Service, and installing it is your choice. I'm not responsible for flags, suspensions, bans, or anything that happens to your account after that. If that sounds bad, skip it, and use a spare account.
