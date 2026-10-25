@@ -83,5 +83,8 @@
     if (area === 'local' && changes.agegate_access) refreshAccess();
   });
 
-  refreshAccess();
+  $('verifyReal').addEventListener('click', function () {
+    window.open('https://verifier.amplitudes.me', '_blank');
+  });
+
 })();
