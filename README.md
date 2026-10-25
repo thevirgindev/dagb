@@ -49,6 +49,16 @@ If Discord ever changes something on their side and a channel refuses to open ag
 
 Big age-gated communities can also refuse a join from their own side, at the server. That one is not a screen the browser can rewrite, so those joins are the one thing this can't force.
 
+## Verify for real (k-ID)
+
+Discord's age assurance vendor is k-ID. If you want Discord to stop demoting the account server-side for good, verify legitimately: start the age verification in Discord until you hit the QR code, then scan it.
+
+DAGB includes a QR scanner for this: open `verifier/index.html` in your browser (or serve it locally with `npx serve verifier`), point your phone camera at Discord's QR code, and the scanner will extract the verification link and open it. Complete the k-ID flow on your phone (facial estimation, ID scan, or credit card — your choice). Once verified, the account is genuinely adult on Discord's servers and DAGB has nothing left to fight.
+
+Use a spare account either way.
+
 ## Not my problem
+
+DAGB (Discord Age Gate Bypass) is not made by Discord and i didnt build it because i hate discord. Using it breaks Discord's Terms of Service, and that's a choice you make when you install it. I'm not responsible for anything that happens after that: flags, suspensions, bans, lost accounts, lost data, whatever. If that sounds bad, use a spare account.
 
 DAGB (Discord Age Gate Bypass) is not made by Discord and i didnt build it because i hate discord. Using it breaks Discord's Terms of Service, and that's a choice you make when you install it. I'm not responsible for anything that happens after that: flags, suspensions, bans, lost accounts, lost data, whatever. If that sounds bad, use a spare account.

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAGB QR Scanner — k-ID Age Verification</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #0f0f12; color: #e4e4e7; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+  h1 { font-size: 20px; margin-bottom: 8px; }
+  p { font-size: 13px; color: #a1a1aa; margin-bottom: 16px; text-align: center; max-width: 480px; }
+  #video { width: 100%; max-width: 480px; border-radius: 12px; background: #1a1a1e; }
+  #canvas { display: none; }
+  #result { margin-top: 16px; padding: 12px 16px; background: #1a1a1e; border: 1px solid #27272a; border-radius: 8px; max-width: 480px; width: 100%; word-break: break-all; font-size: 13px; display: none; }
+  #result a { color: #60a5fa; }
+  #status { margin-top: 12px; font-size: 13px; color: #71717a; }
+  .btn { margin-top: 12px; padding: 10px 20px; background: #2563eb; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; }
+  .btn:hover { background: #1d4ed8; }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  .steps { max-width: 480px; margin-top: 20px; font-size: 13px; color: #a1a1aa; line-height: 1.6; }
+  .steps li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+  <h1>DAGB QR Scanner</h1>
+  <p>Scan Discord's age verification QR code with your camera. The scanner will extract the verification link and open it.</p>
+
+  <video id="video" autoplay playsinline muted></video>
+  <canvas id="canvas"></canvas>
+
+  <div id="status">Starting camera...</div>
+  <div id="result"></div>
+
+  <button class="btn" id="openBtn" style="display:none">Open verification link</button>
+
+  <ol class="steps">
+    <li>Open Discord and start age verification until you see the QR code on screen.</li>
+    <li>Point your phone camera (or this page on another device) at the QR code.</li>
+    <li>The scanner will detect the code and show the verification link.</li>
+    <li>Tap "Open verification link" to complete the age check.</li>
+    <li>Once verified, your Discord account is marked as adult server-side.</li>
+  </ol>
+
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+  <script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const status = document.getElementById('status');
+    const result = document.getElementById('result');
+    const openBtn = document.getElementById('openBtn');
+    let found = false;
+    let foundUrl = null;
+
+    async function startCamera() {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+        video.srcObject = stream;
+        await video.play();
+        status.textContent = 'Scanning for QR code...';
+        requestAnimationFrame(scan);
+      } catch (e) {
+        status.textContent = 'Camera access denied or unavailable: ' + e.message;
+      }
+    }
+
+    function scan() {
+      if (found) return;
+      if (video.readyState === video.HAVE_ENOUGH_DATA) {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const code = jsQR(imageData.data, imageData.width, imageData.height, { inversionAttempts: 'dontInvert' });
+        if (code && code.data) {
+          found = true;
+          foundUrl = code.data;
+          status.textContent = 'QR code found!';
+          result.style.display = 'block';
+          result.innerHTML = 'Verification link: <a href="' + foundUrl + '" target="_blank" rel="noopener">' + foundUrl + '</a>';
+          openBtn.style.display = 'inline-block';
+          openBtn.onclick = function () { window.open(foundUrl, '_blank'); };
+          // Auto-open after 1 second
+          setTimeout(function () { window.open(foundUrl, '_blank'); }, 1000);
+        }
+      }
+      if (!found) requestAnimationFrame(scan);
+    }
+
+    startCamera();
+  </script>
+</body>
+</html>
