@@ -53,7 +53,13 @@ Big age-gated communities can also refuse a join from their own side, at the ser
 
 Discord's age assurance vendor is k-ID. If you want Discord to stop demoting the account server-side for good, verify legitimately: start the age verification in Discord until you hit the QR code, then scan it.
 
-DAGB includes a QR scanner for this: open `verifier/index.html` in your browser (or serve it locally with `npx serve verifier`), point your phone camera at Discord's QR code, and the scanner will extract the verification link and open it. Complete the k-ID flow on your phone (facial estimation, ID scan, or credit card — your choice). Once verified, the account is genuinely adult on Discord's servers and DAGB has nothing left to fight.
+DAGB includes two tools for this in the `verifier/` folder:
+
+1. **QR scanner** (`verifier/index.html`): open it in a browser, point your phone camera at Discord's QR code, and it extracts the verification link and opens it. Complete the k-ID flow on your phone (facial estimation, ID scan, or credit card).
+
+2. **Auto-verify userscript** (`verifier/dagb-kid.user.js`): install it in Tampermonkey/Violentmonkey. It intercepts k-ID's camera and feeds it a static image instead of a live selfie. Set the image URL via the Tampermonkey menu ("Set verification image URL") — use any photo URL (Pinterest, etc.). When k-ID asks for a selfie, it receives the image and processes it as an adult face. No real selfie needed.
+
+   Note: the image URL must allow cross-origin access (CORS). If a Pinterest image fails to load, host the image locally or use a CORS-friendly URL.
 
 Use a spare account either way.
 
